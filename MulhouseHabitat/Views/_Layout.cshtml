@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>_ViewStart</title>
+    <link rel="stylesheet" href="~/Content/CSS/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="~/Content/CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/CSS/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/Content/CSS/StyleSheet1.css" />
+    <script src="~/Content/CSS/bootstrap.min.js"></script>
+    <script src="~/Content/CSS/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="row" id="entete">
+            <div class="col col-lg-12">
+
+
+
+                <h1>Mulhouse Habitat</h1>
+
+
+            </div>
+
+            <div class="col col-lg-12">
+                <img id="logo" src="~/Content/image/logo_logement.jpg" class="img-fluid" />
+            </div>
+        </header>
+
+
+        <div class="col col-lg-12">
+
+
+
+          
+     
+            <!--  debut vue -->
+            @RenderBody()
+            <hr />
+            <!-- fin vue -->
+        </div>
+
+
+      
+    </div>
+</body>
+</html>

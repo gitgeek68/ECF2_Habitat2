@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using MulhouseHabitat.Models;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace MulhouseHabitat.Models
 {
@@ -58,6 +61,10 @@ namespace MulhouseHabitat.Models
 
         }
 
+        internal MHLogements GetLogement(MHLogements id)
+        {
+            throw new NotImplementedException();
+        }
 
         public List<MHLogements> GetLogements()
         {

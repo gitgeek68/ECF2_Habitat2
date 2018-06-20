@@ -99,9 +99,11 @@
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\image\logo_logement.jpg" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\js\holder.js" />
     <Content Include="Content\js\jquery-3.3.1.min.js" />
+    <Content Include="Content\css\StyleSheet1.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -128,10 +130,10 @@
     <Content Include="Views\Logement\Create.cshtml" />
     <Content Include="Views\Logement\Edit.cshtml" />
     <Content Include="Views\Logement\Detail.cshtml" />
-    <Content Include="Views\Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Logement\INDEX.cshtml" />
-    <Content Include="Views\Home\View.cshtml" />
+    <Content Include="Views\_Layout.cshtml" />
+    <Content Include="Views\Logement\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
